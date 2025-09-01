@@ -50,8 +50,8 @@ namespace PickleP2P.Gameplay.Ball
                 scoreManager?.OnBallNetHit();
                 return;
             }
-            // Ground check: assume CourtFloor name
-            if (collision.collider.name.Contains("CourtFloor") || collision.collider.sharedMaterial == physicMaterial)
+            // Ground check: Court floor only
+            if (collision.collider.name.Contains("CourtFloor"))
             {
                 scoreManager?.OnBallGrounded(transform.position);
             }
