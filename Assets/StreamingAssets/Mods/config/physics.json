@@ -1,0 +1,1 @@
+{ "ballMassKg": 0.024, "ballDiameterM": 0.074, "ballBounciness": 0.5, "paddleHitBoost": 1.0, "gravity": -9.81, "fixedTimestep": 0.0166667 }

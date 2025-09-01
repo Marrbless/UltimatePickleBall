@@ -1,0 +1,19 @@
+{
+  "assets": {
+    "paddle": {"model": "models/paddle.obj", "mtl": "models/paddle.mtl", "scale": [1,1,1], "rotateEuler": [0,0,0], "offset": [0,0,0]},
+    "ball":   {"model": "models/ball.obj"},
+    "net":    {"model": "models/net.obj"}
+  },
+  "textures": {
+    "court_diffuse": "textures/court_diffuse.png",
+    "paddle_albedo": "textures/paddle_albedo.png"
+  },
+  "audio": {
+    "hit": "audio/hit.wav",
+    "bounce": "audio/bounce.wav",
+    "serve": "audio/serve.wav"
+  },
+  "rules": "config/rules.json",
+  "physics": "config/physics.json",
+  "camera": "config/camera.json"
+}
